@@ -1,3 +1,3 @@
 # Aljeco.in
 
-Comming soon template
+Coming soon template
