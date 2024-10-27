@@ -4,7 +4,7 @@
     <title>Aljeco | Fashion</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" href="images/aljeco-logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:400,700%7CPoppins:400,500&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -14,7 +14,6 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-
 <div class="main-area">
     <div class="container full-height position-static">
 
@@ -25,21 +24,25 @@
             <div class="display-table">
                 <div class="display-table-cell">
                     <div class="main-content">
-                        <h1 class="title"><b>Under Construction</b></h1>
+                        <h1 class="title"><b>Coming Soon...</b></h1>
                         <p>Our website is currently being developed.
                             We are launching in winters this year. Thank you for your patience.</p>
 
                         <div class="email-input-area">
-                            <form id="subscribe-form" action="https://gmail.us17.list-manage.com/subscribe/post" method="POST" target="_blank">
+                            <form id="subscribe-form" action="https://gmail.us17.list-manage.com/subscribe/post"
+                                  method="POST" target="_blank">
                                 <input type="hidden" name="u" value="ae1eec39c59179a0152782329">
                                 <input type="hidden" name="id" value="82ae3de80d">
                                 <input required placeholder="Enter your email address" class="email-input" type="email"
                                        name="MERGE0" id="MERGE0" maxlength="255">
-                                <button class="submit-btn" name="submit" type="submit"><b>NOTIFY ME</b></button>
+                                <button class="submit-btn" name="submit" type="submit"><i class="fa-solid fa-bullhorn"></i> <b>NOTIFY ME</b></button>
                             </form>
                         </div>
 
                         <p class="post-desc">Sign up now to get early notification of our launch date!</p>
+                        <div id="alert-subscribed" class="alert alert-success mt-3" hidden>
+                            <i class="fa-solid fa-circle-check"></i> Your have been subscribed successfully! Stay tuned.
+                        </div>
                     </div><!-- main-content -->
                 </div><!-- display-table-cell -->
             </div><!-- display-table -->
@@ -68,7 +71,6 @@
 
     </div><!-- container -->
 </div><!-- main-area -->
-
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-knob@1.2.11/dist/jquery.knob.min.js"></script>
