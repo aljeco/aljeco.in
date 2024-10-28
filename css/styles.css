@@ -20,8 +20,6 @@ body {
     height: 100%;
     margin: 0;
     font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     word-wrap: break-word;
     overflow-x: hidden;
     color: #333;
@@ -148,28 +146,6 @@ b.light-color {
     vertical-align: middle;
 }
 
-
-::-webkit-input-placeholder {
-    font-size: .9em;
-    letter-spacing: 1px;
-}
-
-::-moz-placeholder {
-    font-size: .9em;
-    letter-spacing: 1px;
-}
-
-:-ms-input-placeholder {
-    font-size: .9em;
-    letter-spacing: 1px;
-}
-
-:-moz-placeholder {
-    font-size: .9em;
-    letter-spacing: 1px;
-}
-
-
 .full-height {
     height: 100%;
 }
@@ -251,13 +227,13 @@ b.light-color {
 
 
 .main-content .email-input-area .submit-btn {
-    width: 120px;
+    width: 140px;
     text-align: center;
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-    font-size: .9em;
+    font-size: 0.9em;
     border-radius: 0 40px 40px 0;
     transition: all .3s;
     background: #F84982;
@@ -467,7 +443,7 @@ b.light-color {
     1. PRIMARY STYLES
     --------------------------------- */
     body {
-        font-size: 12px;
+        font-size: 14px;
     }
 
 }
