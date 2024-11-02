@@ -299,6 +299,11 @@ b.light-color {
     border-color: #10a80a;
 }
 
+.left-section .footer-icons > li > a > i[class*="fa-envelope"] {
+    color: #c90b37;
+    border-color: #9e0b2d;
+}
+
 
 /* ---------------------------------
 4. RIGHT SECTION
