@@ -11,8 +11,21 @@
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4/css/all.min.css"
           crossorigin="anonymous">
+    <style>
+        .collage-image {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .collage-container {
+            position: relative;
+            height: 200px;
+        }
+    </style>
 </head>
 <body class="bg-light">
+
 <div class="container">
 
     <header class="row">
@@ -23,11 +36,27 @@
             </div>
         </div>
         <div class="col-md-12 py-3">
-            <div class="text-center">
-                <img src="../images/slides/slide-1.jpg" class="rounded" alt="..." height="200px" width="200px">
-                <img src="../images/slides/slide-2.jpg" class="rounded" alt="..." height="200px" width="200px">
-                <img src="../images/slides/slide-3.jpg" class="rounded" alt="..." height="200px" width="200px">
-                <img src="../images/slides/slide-4.jpg" class="rounded" alt="..." height="200px" width="200px">
+            <div class="row g-3">
+                <div class="col-3">
+                    <div class="collage-container">
+                        <img src="../images/slides/slide-1.jpg" class="collage-image rounded" alt="Slide 1">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="collage-container">
+                        <img src="../images/slides/slide-2.jpg" class="collage-image rounded" alt="Slide 2">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="collage-container">
+                        <img src="../images/slides/slide-3.jpg" class="collage-image rounded" alt="Slide 3">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="collage-container">
+                        <img src="../images/slides/slide-4.jpg" class="collage-image rounded" alt="Slide 4">
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -41,7 +70,8 @@
         </article>
 
         <section class="col-md-6 text-center offset-md-3">
-            <form class="border rounded-2 p-4 bg-white" id="subscribe-form" action="https://gmail.us11.list-manage.com/subscribe/post"
+            <form class="border rounded-2 p-4 bg-white" id="subscribe-form"
+                  action="https://gmail.us11.list-manage.com/subscribe/post"
                   method="POST" target="_blank">
                 <input type="hidden" name="u" value="d912ff3f6db9d2fe7546b9db5">
                 <input type="hidden" name="id" value="749ce16580">
